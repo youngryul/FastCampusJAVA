@@ -7,6 +7,7 @@ public class HelloJava {
 		System.out.println("test");
 		System.out.println("dh");
 		System.out.println("ddff");
+		System.out.println("sss");
 	}
 
 }
