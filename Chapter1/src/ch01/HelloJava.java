@@ -1,0 +1,12 @@
+package ch01;
+
+public class HelloJava {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, Java");
+		System.out.println("test");
+		System.out.println("dh");
+		System.out.println("ddff");
+	}
+
+}
