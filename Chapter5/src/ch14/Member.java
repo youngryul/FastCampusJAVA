@@ -1,6 +1,6 @@
-package ch13;
+package ch14;
 
-public class Member implements Comparable<Member> {
+public class Member {
 
 	private int memberId;
 	private String memberName;
@@ -48,16 +48,6 @@ public class Member implements Comparable<Member> {
 		}
 		return false;
 
-	}
-
-	@Override
-	public int compareTo(Member member) {
-		
-		if( this.memberId > member.memberId)
-			return 1;
-		else if ( this.memberId < member.memberId)
-			return -1;
-		else return 0;
 	}
 	
 	
