@@ -55,6 +55,9 @@ public class InnerTest {
 		OutClass.InStaticClass sInClass = new OutClass.InStaticClass();
 		sInClass.inTest();
 		
+		OutClass outClass = new OutClass();
+		outClass.usingClass();
+		
 		System.out.println();
 		
 		OutClass.InStaticClass.sTest();

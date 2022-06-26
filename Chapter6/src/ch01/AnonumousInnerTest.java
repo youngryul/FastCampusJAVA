@@ -37,7 +37,7 @@ public class AnonumousInnerTest {
 		Runnable runner = out.getRunnable(100);
 		
 		runner.run();
-
+		
 	}
 
 }
