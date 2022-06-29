@@ -46,4 +46,27 @@ public class MyLogger {
 		logger.addHandler(fineFile);
 	}
 	
+	public static MyLogger getLogger() {
+		return instance;
+	}
+	
+	public void log(String msg) {
+		
+		logger.finest(msg);
+		logger.finer(msg);
+		logger.fine(msg);
+		logger.config(msg);
+		logger.info(msg);
+		logger.warning(msg);
+		logger.severe(msg);
+	}
+	
+	public void fine(String msg) {
+		logger.fine(msg);
+	}
+	
+	public void warning(String msg) {
+		logger.warning(msg);
+	}
+	
 }
