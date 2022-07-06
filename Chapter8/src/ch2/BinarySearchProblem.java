@@ -4,7 +4,6 @@ public class BinarySearchProblem {
 
 	public static void main(String[] args) {
 		
-	
 		int arr[] = {12, 25, 31, 48, 54, 66, 70, 83, 95, 108};
 		
 		int low = 0;
